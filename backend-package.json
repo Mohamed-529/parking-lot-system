@@ -1,0 +1,21 @@
+{
+  "name": "parking-lot-system-backend",
+  "version": "1.0.0",
+  "description": "Parking Lot Management System Backend",
+  "main": "parking-lot-backend.js",
+  "scripts": {
+    "start": "node parking-lot-backend.js",
+    "dev": "nodemon parking-lot-backend.js"
+  },
+  "keywords": ["parking", "management", "system"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
